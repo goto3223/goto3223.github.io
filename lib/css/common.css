@@ -1,0 +1,940 @@
+@charset "UTF-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea,{margin: 0; padding: 0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+/* ========================================
+	フロートの解除
+========================================= */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ========================================
+    レイアウト用
+========================================= */
+body {
+	border-top: 5px solid #19b2fd;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* ========================================
+    ヘッダー用
+========================================= */
+header {
+  width: 100%;
+	height: auto;
+}
+
+header div#header_inner {
+	width: 960px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+header div#header_inner h1 {
+  font-size: 10px;
+  color: #333;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	float: left;
+	background: url(../img/logo.jpg) no-repeat;
+	margin-top: 20px;
+}
+
+header div#header_inner h1 span {
+  font-size: 12px;
+  color: #734339;
+}
+
+header div#header_inner h1 a {
+	text-decoration: none;
+	line-height: 25px;
+	padding-left: 90px;
+	display: block;
+}
+
+header div#header_inner span.ttl_fst {
+	font-size: 18px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333;
+}
+
+header div#header_inner span.ttl_sec {
+	font-size: 24px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333;
+}
+
+header div#header_inner span.ttl_trd {
+	font-size: 16px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333;
+}
+
+header div#header_inner ul.sub_nav {
+	float: right;
+	border: 1px solid #eee;
+	background-color: #edf9ff;
+	margin-top: 20px;
+	width: 220px;
+	height: 40px;
+
+}
+
+header div#header_inner ul.sub_nav li {
+  float: left;
+	padding: 8px 0px 0px 15px;
+}
+
+header div#header_inner ul.sub_nav li#sitemap {
+	background: url(../img/ico_sitemap.png) no-repeat left 13px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+header div#header_inner ul.sub_nav li#inquiry {
+	background: url(../img/ico_inquiry.png) no-repeat left 13px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+header div#header_inner ul.sub_nav li a {
+	color: #333;
+  text-decoration: none;
+  font-size: 12px;
+	padding-left: 5px;
+}
+
+header div#header_inner ul.sub_nav li a:hover {
+	color: #cdcdcd;
+}
+
+nav {
+	width: 100%;
+  float: left;
+	background: #87c6ed; /* Old browsers */
+	background: -moz-linear-gradient(top, #87c6ed 0%, #22a7f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87c6ed), color-stop(100%, #22a7f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #87c6ed 0%, #22a7f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top, #87c6ed 0%, #22a7f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #87c6ed 0%, #22a7f0 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87c6ed', endColorstr='#22a7f0', GradientType=0 ); /* IE6-9 */
+}
+
+nav ul {
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	height: 30px;
+	padding: 20px;
+}
+
+nav ul li {
+  float: left;
+	width: 162px;
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+	vertical-align: top;
+	border-left: 1px solid #fff;
+}
+
+nav ul li.last {
+  border-right: 1px solid #fff;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;	/*文字サイズ*/
+}
+
+nav ul li a:hover {
+	color: #1862b5;
+}
+/* ========================================
+    メイン画像用
+========================================= */
+div#mainimage {
+  width: 100%;
+	height: 420px;
+  background: url(../img/bg_mainimg.gif);
+	margin: 0 auto ;
+}
+
+.slider {
+	width: 980px;
+	text-align: center;
+	overflow: hidden;
+	padding: 45px 0 45px 0;
+}
+
+.owl-item div {
+	width: 980px;
+	height: 360px;
+	margin: 0 auto;
+	background: url(../img/shadow.png) center bottom no-repeat;
+}
+/* ========================================
+    センター
+========================================= */
+div#center {
+  width: 100%;
+  height: 380px;
+	background: #f7f7f7
+}
+
+div#center_inner {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+div#center_inner p {
+	text-align: center;
+}
+
+div#center_inner .line {
+	display: block;
+	height: 10px;
+	background-color: #1862b5;
+	margin-bottom: 5px;
+}
+
+div#center_inner ul {
+	margin-top: 30px;
+}
+
+div#center_inner ul li {
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+ vertical-align: top;
+ width: 288px;
+ font-size: 14px;
+ background-color: #fff;
+ border: 1px solid #f4f4f4;
+ color: #1862b5;
+}
+div#center_inner ul > *:first-child + * ,
+div#center_inner ul > *:first-child + * + * {
+	margin-left: 49px;
+}
+
+div#center_inner ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+
+div#center_inner ul li:hover {
+	border: 1px solid #1862b5;
+}
+
+/* ========================================
+    インフォ
+========================================= */
+div#info {
+	width: 980px;
+	margin: 60px auto;
+}
+
+/* ========================================
+    サイド（レフト）
+========================================= */
+div#left {
+  width: 720px;
+  height: 400px;
+  float: left;
+  margin-right: 20px;
+}
+
+div#left h2 {
+	background-color: #22a7f0;
+	color: #fff;
+	width: 680px;
+	display: block;
+	padding: 16px 0 16px 15px;
+	font-size: 18px;
+}
+
+div#left h2 span {
+	font-size: 12px;
+}
+
+div#left dt {
+	font-size: 12px;
+	color: #a8a8a8;
+	float: left;
+	width: 90px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+div#left dd {
+	font-size: 14px;
+	color: #555555;
+	float: left;
+	width: 515px;
+	line-height: 40px;
+}
+
+div#left dd a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+
+div#left dd a:hover {
+	color: #cdcdcd;
+}
+
+.btn_more {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: url(../img/arrow_wht.png) no-repeat;
+    background-color: #ffc105;
+    background-position: 190px center;
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #bf930e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn_more:hover {
+	border-top: 2px solid #ffc105;
+	border-bottom: none;
+}
+/* ========================================
+    サイド（ライト）
+========================================= */
+div#right {
+  width: 235px;
+  height: 400px;
+  float: left;
+}
+
+div#right h2 {
+	background-color: #22a7f0;
+	color: #fff;
+	width: 220px;
+	display: block;
+	padding: 16px 0 16px 15px;
+	font-size: 18px;
+}
+
+div#right span {
+	font-size: 12px;
+}
+
+div#right ul {
+	text-align: center;
+}
+
+div#right ul li {
+	margin: 10px 0;
+	border-bottom: 2px dotted #cdcdcd;
+	font-size: 14px;
+}
+
+div#right ul li a:hover img {
+	border: 4px solid #1862b5;
+}
+
+div#right ul li img {
+	border: 4px solid #eee;
+}
+
+div#right p {
+	padding: 5px 10px 5px 5px;
+	background: url(../img/ylw.jpg) right center no-repeat;
+}
+
+div#right ul li a {
+	text-decoration: none;
+	color: #333;
+}
+
+div#right ul li a:hover {
+	color: #cdcdcd;
+}
+
+div.clear {
+  clear: both;
+}
+
+/* ========================================
+    ページトップ
+========================================= */
+.pagetop {
+	text-align: center;
+	border-top: 2px solid #0e7ac4;
+}
+.pagetop a {
+	display: block;
+	margin: auto;
+	padding: 5px;
+	width: 65px;
+	height: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../img/pagetop.gif) no-repeat;
+}
+.pagetop a:hover {
+	background-position: 0 -30px;
+}
+/* ========================================
+    フッター
+========================================= */
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #0e7ac4;
+}
+
+div#footer_inner {
+	width: 980px;
+	margin: 0 auto 20px;
+	padding-top: 20px;
+}
+div#footer_inner p {
+	float: left;
+	color: #fff;
+	font-size: 14px;
+}
+
+div#footer_inner p span {
+	letter-spacing: 0.2px;
+}
+
+div#footer_inner ul li {
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+	vertical-align: top;
+	margin-left: 15px;
+	border-left: 1px solid #fff;
+	padding-left: 20px;
+	font-size: 14px;
+	height: 170px;
+	line-height: 30px;
+}
+
+div#footer_inner ul li dl dt a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+div#footer_inner ul li dl dt a:hover {
+	color: #cdcdcd;
+}
+
+div#footer_inner ul li dl dd a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+div#footer_inner ul li dl dd a:hover {
+  color: #cdcdcd;
+}
+
+div#copyright p {
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding-top: 5px;
+}
+
+/* ========================================
+	サイドバー
+========================================= */
+div#sidebar {
+	width: 230px;
+  height: auto;
+  float: left;
+	border: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+div#sidebar p {
+	background-color: #22a7f0;
+	color: #fff;
+	display: block;
+	padding: 14px 0 14px 15px;
+	font-size: 18px;
+}
+
+div#sidebar ul li {
+	width: 200px;
+	margin-left: 15px;
+	border-bottom: 2px dotted #eee;
+	padding: 5px 0 5px 0;
+	background: url(../img/ylw.jpg) right center no-repeat;
+}
+
+div#sidebar ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+
+div#sidebar ul li a:hover {
+	color: #cdcdcd;
+}
+
+/* ========================================
+	下層ページトップエリア
+========================================= */
+
+div#top_contents {
+	width: 980px;
+	margin: 20px auto;
+}
+
+div#top_contents ul li {
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+	padding-right: 20px;
+	list-style-type: none;
+	font-size: 14px;
+}
+
+div#top_contents ul li a:hover {
+	color: #cdcdcd;
+}
+
+div#top_contents ul > *:first-child ,
+div#top_contents ul > *:first-child + * {
+	background: url(../img/ylw.jpg) right center no-repeat;
+}
+
+div#top_contents p {
+	margin-top: 20px;
+	background: url(../img/top_image.jpg) top right no-repeat;
+	display: block;
+	border: 1px solid #19b1fc;
+	border-left: 10px solid #19b1fc;
+	font-size: 30px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333333;
+	height: 85px;
+	padding: 35px 0 0 10px;
+}
+
+/* ========================================
+	下層ページ　ラッパー
+========================================= */
+div#wrapper {
+  width: 980px;
+  height: auto;
+  margin: 0 auto 20px auto;
+}
+
+/* ========================================
+    コンテンツエリア(学園案内・教育研究・地域支援本部)
+========================================= */
+div#content {
+	width: 720px;
+  height: auto;
+  float: left;
+  margin-left: 28px;
+}
+
+div#content h2 {
+	background-color: #22a7f0;
+	color: #fff;
+	display: block;
+	padding: 14px 0 14px 15px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+div#content p.text {
+	font-size: 14px;
+	line-height: 25px;
+  margin: 5px auto 10px;
+}
+
+/* ========================================
+    コンテンツエリア(学園案内・教育研究・地域支援本部)
+========================================= */
+div#content .ttl {
+	padding: 10px 10px;
+	border-radius:4px;
+	border:1px solid #cdcdcd;
+	box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	margin: 15px 0px;
+	width: 700px;
+}
+
+div#content .ttl h3 {
+	border-left:#19b2fd solid 8px;
+  padding:.3em .3em .3em .8em;
+  font-size: 18px;
+}
+
+div#content h4 {
+	background: #f8f3f3;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 7px solid #19b2fd;
+	border-bottom: 1px solid #ccc;
+	padding: .8em .9em;
+	font-size: 16px;
+	margin: 20px 0 10px;
+}
+
+div#content dl dt {
+	color: #333;
+	font-size: 14px;
+	line-height: 30px;
+  font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+div#content dl dt img {
+	padding-right: 5px;
+}
+
+div#content dl dd {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+div#content dl.box {
+  border: solid 1px #cdcdcd;
+	background: #f8f3f3;
+  margin-top: 5px;
+}
+
+div#content dl.box dt {
+  background: #e88f0c;
+	color: #fff;
+  padding-left: 13px;
+}
+
+div#content dl.box dd {
+  padding-top: 5px;
+  height: 25px;
+}
+
+div#content ul {
+  padding-top: 10px;
+}
+
+div#content ul li {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* ========================================
+    学園からのメッセージエリア
+========================================= */
+div#content .ttlbox {
+  width: 720px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+div#content .ttlbox dl {
+  width: 520px;
+  float: left;
+}
+
+div#content .ttlbox dl dt {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div#content .ttlbox dl dd {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+div#content .ttlbox p {
+  float: left;
+  margin-left: 35px;
+}
+
+/* ========================================
+    学校沿革・学園長からの手紙・学園情報
+========================================= */
+div#content_info {
+	width: 720px;
+  height: auto;
+  float: left;
+  margin-left: 28px;
+}
+
+div#content_info h2 {
+	background-color: #22a7f0;
+	color: #fff;
+	display: block;
+	padding: 14px 0 14px 15px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+div#content_info dl dt {
+  font-size: 12px;
+	color: #a8a8a8;
+	float: left;
+	width: 90px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+div#content_info dl dd {
+  font-size: 14px;
+	color: #555555;
+	float: left;
+	width: 515px;
+	line-height: 40px;
+}
+
+div#content_info dl dd a {
+  display: block;
+	text-decoration: none;
+	color: #333;
+}
+
+div#content_info dl dd a:hover {
+  color: #cdcdcd;
+}
+
+div#content_info p.kouka img {
+    width: 700px;
+    margin-top: 20px;
+}
+
+div#content_info .audiojs {
+    display: block;
+    margin: 0 auto 20px;
+}
+/* ========================================
+    学園生活
+========================================= */
+div#content_schoollife {
+	width: 720px;
+  height: auto;
+  float: left;
+  margin-left: 28px;
+}
+
+div#content_schoollife h2 {
+	background-color: #22a7f0;
+	color: #fff;
+	display: block;
+	padding: 14px 0 14px 15px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+div#content_schoollife p.text {
+	font-size: 14px;
+	line-height: 25px;
+  margin: 10px auto 10px;
+}
+
+div#content_schoollife .ttl {
+	padding: 10px 10px;
+	border-radius:4px;
+	border:1px solid #cdcdcd;
+	box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	margin: 15px 0px;
+	width: 700px;
+}
+
+div#content_schoollife .ttl h3 {
+	border-left:#19b2fd solid 8px;
+  padding:.3em .3em .3em .8em;
+  font-size: 18px;
+}
+
+div#content_schoollife h4 {
+	background: #f8f3f3;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 7px solid #19b2fd;
+	border-bottom: 1px solid #ccc;
+	padding: .8em .9em;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+div#content_schoollife .ttlbox dl {
+  width: 420px;
+  float: left;
+	margin: 10px 0 40px 0;
+}
+
+div#content_schoollife .ttlbox dl dt {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div#content_schoollife .ttlbox dl dd {
+  font-size: 14px;
+  margin: 10px 0 10px 15px;
+}
+
+div#content_schoollife .ttlbox p {
+  float: left;
+  margin: 10px 0 0 35px;
+}
+
+.btn_more {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: url(../img/arrow_wht.png) no-repeat;
+    background-color: #ffc105;
+    background-position: 190px center;
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #bf930e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn_more:hover {
+	border-top: 2px solid #ffc105;
+	border-bottom: none;
+}
+
+/* ========================================
+    施設設備・特別授業
+========================================= */
+div#content_guide {
+	width: 720px;
+  height: auto;
+  float: left;
+  margin-left: 28px;
+}
+
+div#content_guide h2 {
+	background-color: #22a7f0;
+	color: #fff;
+	display: block;
+	padding: 14px 0 14px 15px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+div#content_guide p.text {
+	font-size: 14px;
+	line-height: 25px;
+  margin: 5px auto 10px;
+}
+
+div#content_guide ul {
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 5px;
+}
+
+div#content_guide dl dt {
+	color: #e88f0c;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+div#content_guide dl dd {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+div#content_guide dl dt img {
+	padding-right: 5px;
+}
+
+div#content_guide .ttlbox {
+  width: 720px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+div#content_guide .ttlbox p {
+  width: 330px;
+  float: left;
+}
+
+div#content_guide .ttlbox dl {
+  width: 360px;
+  float: left;
+  margin-left: 30px;
+}
+
+div#content_guide .ttlbox dl dt {
+  font-size: 20px;
+}
+
+div#content_guide .ttlbox dl dd {
+  font-size: 14px;
+}
+
+div#content_guide .ttlbox dl p.load a {
+  text-decoration: none;
+  color: #333;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+div#content_guide .ttlbox dl p.load a:hover {
+  color: #cdcdcd;
+}

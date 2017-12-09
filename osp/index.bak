@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 17.0.7.0 for Windows" />
+<title>地域支援本部について</title>
+<link rel="stylesheet" type="text/css" href="../lib/css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/owl.carousel.css"/>
+<script src="../lib/js/jquery-1.11.2.min.js"></script>
+<script src="../lib/js/myscript.js"></script>
+<script type="text/javascript" src="../lib/js/owl.carousel.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="head_inner">
+      <h1 class="logo"><a href="../index.html"><img src="../lib/img/common/logo_hosogo.jpg" width="403" height="89" alt="ほそごう学園ロゴマーク"/></a></h1>
+      <ul class="sub_nav">
+        <li><img src="../lib/img/common/ico_sitemap.png" class="ico" /><a href="index.html#sitemap">サイトマップ</a></li>
+         <li><img src="../lib/img/common/ico_inquiry.png"class="ico" /><a href="mailto:wuss5＠city.ikeda.osaka.jp">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div id="gnav">
+      <ul>
+        <li><a href="../index.html">ホーム</a></li>
+        <li><a href="../about/index.html">学園案内</a></li>
+        <li><a href="../campus/index.html">学園生活</a></li>
+        <li><a href="../facility/index.html">施設設備</a></li>
+        <li><a href="../research/index.html">教育研究</a></li>
+        <li class="last"><a href="index.html">地域連携</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- #header -->
+  
+  <ul id="breadcrumb">
+    <li><a href="../index.html">ホーム</a></li>
+    <li><a href="index.html">地域連携</a></li>
+    <li class="last">地域支援本部</li>
+  </ul>
+  <div id="container" class="pages">
+    <h1 class="history_tit">地域連携</h1>
+    <div id="sidebar" class="under">
+      <h3><img src="../lib/img/top/ico_report.png" class="ico" />地域連携<span>- Community</span></h3>
+      <ul>
+        <li>
+          <p><a href="index.html">地域支援本部</a></p>
+        </li>
+        <li>
+          <p><a href="pta.html">ＰＴＡ活動</a></p>
+        </li>
+      </ul>
+    </div>
+    <div id="contetns">
+      <h2>地域支援本部について<span>- For community support headquarters</span></h2>
+      <p class="main_img"><img src="../lib/img/common/osp_omg.jpg" alt="支援活動様子の写真" width="720" height="250"/></p>
+      <p class="text_top">卒業生やPTA・OGOBや地域住民のみなさんが主体となる学校支援の組織です。<br />
+        ほそごう学園をOurSchool（私たちの学校）と思っていただける方のお力を少しお貸しいただければありがたいです。</p>
+      <div class="selector">
+        <h4 class="selectorb">地域支援本部の主な取り組み</h4>
+      </div>
+      <p class="text">学校教育の充実、生涯学習社会の実現、地域の教育力の向上につながる取り組みをおこなっています。</p>
+      <div class="detail">
+        <h5>活動の概要</h5>
+        <dl>
+          <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>目的</dt>
+          <dd>学校・家庭・地域が一体となって地域ぐるみで子どもを育てる体制を整えることを目的としています。 </dd>
+          <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>主な活動</dt>
+          <dd>土曜日を中心として、クラブ活動のサポートや補助学習の機会を提供していきます。</dd>
+          <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>期待される効果</dt>
+          <dd>地域住民と学校の垣根をなくし、地域活性化への貢献が期待できます。
+            </dd>
+          <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>募集
+            </dt>
+        </dl>
+        <dl>
+          <dd>学校および地域に貢献したい方を募集しております。ご興味のある方はほそごう学園までご連絡ください。</dd>
+        </dl>
+        <h5>これまでの取り組み</h5>
+        <dl>
+          <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>早朝英語および国語塾を開講</dt>
+          <dd class="last">主に高校受験をむかえる3年生を中心に学習のお手伝いをすることで、地域の学生の学習向上に寄与しました。<br />
+            また、これ以外にも不定期ではありますが、学生、学校、地域住民を交えた親睦会などの活動を行いました。</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+ <div id="footer">
+  	<div class="pagetop"><a href="#wrapper"></a></div>
+    <ul>
+    	<li class="school_info">
+      	<h4 id="sitemap">ほそごう学園</h4>
+        <p>池田市立細郷小学校</p>
+        <p>池田市立細郷中学校</p>
+        <div class="address">
+          〒563-0017<br />大阪府池田市伏尾台3-14
+          <p>072-751-0731</p>
+        </div>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../index.html">ホーム</a></dt>
+          <dd></dd>
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../about/index.html">学園案内</a></dt>
+          <dd><a href="index.html">学園について</a></dd>
+          <dd><a href="message.html">学園からのメッセージ</a></dd>
+          <dd><a href="feature.html">学園の特徴</a></dd>
+          <dd><a href="history.html">沿革</a></dd> 
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../campus/index.html">学園生活</a></dt>
+          <dd><a href="index.html">学園生活</a></dd>
+          <dd><a href="letter.html">学園長からの手紙</a></dd>
+          <dd><a href="info.html">学園情報</a></dd>
+        </dl>
+      </li>
+      <li>
+      	<dl>
+        	<dt><a href="../facility/index.html">施設設備</a></dt>
+          <dd><a href="index.html">メディアセンター</a></dd>
+          <dd><a href="music.html">音楽室</a></dd>
+          <dd><a href="pool.html">プール</a></dd>
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../research/index.html">教育研究</a></dt>
+          <dd><a href="index.html">教育活動</a></dd>
+          <dd><a href="special.html">特別授業</a></dd>
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="index.html">地域連携</a></dt>
+          <dd><a href="index.html">地域支援本部</a></dd>
+          <dd><a href="pta.html">ＰＴＡ活動</a></dd>
+        </dl>
+      </li>
+    </ul>
+  </div><!-- footer -->
+</div>
+<!-- #wrapper -->
+</body>
+</html>

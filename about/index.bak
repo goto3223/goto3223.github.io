@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 17.0.7.0 for Windows" />
+<title>学園について</title>
+<link rel="stylesheet" type="text/css" href="../lib/css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="../lib/css/owl.carousel.css"/>
+<script src="../lib/js/jquery-1.11.2.min.js"></script>
+<script src="../lib/js/myscript.js"></script>
+<script type="text/javascript" src="../lib/js/owl.carousel.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="head_inner">
+    <h1 class="logo"><a href="../index.html"><img src="../lib/img/common/logo_hosogo.jpg" width="403" height="89" alt="ほそごう学園ロゴマーク"/></a></h1>
+      <ul class="sub_nav">
+        <li><img src="../lib/img/common/ico_sitemap.png" class="ico" /><a href="index.html#sitemap">サイトマップ</a></li>
+       <li><img src="../lib/img/common/ico_inquiry.png"class="ico" /><a href="mailto:wuss5＠city.ikeda.osaka.jp">お問い合わせ</a></li>
+    </ul>
+    </div>
+    <div id="gnav">
+    <ul>
+        <li><a href="../index.html">ホーム</a></li>
+        <li><a href="index.html">学園案内</a></li>
+        <li><a href="../campus/index.html">学園生活</a></li>
+        <li><a href="../facility/index.html">施設設備</a></li>
+        <li><a href="../research/index.html">教育研究</a></li>
+        <li class="last"><a href="../osp/index.html">地域連携</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- #header -->
+  
+  <ul id="breadcrumb">
+    <li><a href="../index.html">ホーム</a></li>
+    <li><a href="index.html">学園案内</a></li>
+    <li class="last">学園について</li>
+  </ul>
+  <div id="container" class="pages">
+    <h1 class="history_tit">学園案内</h1>
+    <div id="sidebar" class="under">
+      <h3><img src="../lib/img/top/ico_report.png" class="ico" />学園案内<span>- Introduce</span></h3>
+      <ul>
+        <li>
+          <p><a href="index.html">学園について</a></p>
+        </li>
+        <li>
+          <p><a href="message.html">学園からのメッセージ</a></p>
+        </li>
+        <li>
+          <p><a href="feature.html">学園の特徴</a></p>
+        </li>
+        <li>
+          <p><a href="history.html">沿革</a></p>
+        </li>
+      </ul>
+    </div>
+    <div id="contetns">
+      <h2>学園について<span>- About us</span></h2>
+      <p class="main_img"><img src="../lib/img/mainimg/abouthosogo.jpg" width="720" height="253" alt="ほそごう学園メイン階段の写真"/></p>
+      <p class="text_top">　「ほそごう（細郷）」は中世から明治まで現在の伏尾台を含む細河地域を総称する名称として使われていた地名です。明治７（１８７４）念には、この地域初の学校として細郷小学校（細河小学校）が開設されました。それから９０年近くの年月を経て、１９８０年代はじめに伏尾台小学校、細河中学校が相次いで開設されました。<br />　いわば、「ほそごう」の名は、細河・伏尾台地域の学校のルーツとも言えましょう。そして、現在の教育課題の解決と子どもたちの豊かな育ちのために開校する新しい小中一貫校は、細郷地域の教育の原点を表す「ほそごう」を学園名として採用しました。</p>
+      <div class="selector">  
+    <h4 class="selectorb">ほそごう学園がめざす教育：9年間一貫して子どもを育てる</h4>  
+      </div>  
+      <p class="text">　これまでの細小・伏小・細中教育のよき伝統を継承しつつ、現在の教育課題を解決するために小中の教職員が協働して、９年間に渡り、子どもを指導・支援するための新たなステージで教育活動を行います。</p>
+      <div class="ttl">
+        <h5>学校教育目標</h5>
+        <dl>
+        <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>確かな学力と豊かな人権感覚の育成を仲間とともに</dt>
+        <dd>地域の特性を活かし、9年間の一貫した教育の中で、子どもたちに確かな学力と豊かな人権感覚を育て、仲間と協議し、自らの進路を切り拓く力を育成する。</dd>
+        </dl>
+        <h5>めざす子ども像</h5>
+        <ul>
+          <li>① 学び合う喜びを感じ、自ら学ぶ子</li>
+          <li>② 生命を大切にし、人権尊重の社会をともに築く子</li>
+          <li>③ くらしを見つめ、自らの生き方を切り拓く子</li>
+          <li>④ 目標を持って、最後までやりきる子</li>
+          <li>⑤ 地域を愛し、地域とともに歩む子</li>
+          </ul>
+        <h5>重点教育方針</h5>
+        <dl>
+        <dt><img src="../lib/img/mainimg/allow_org.png" width="7" height="9" alt="#"/>ユニバーサルデザインで育てる９年間の学びと育ち</dt>
+        <dd>子ども一人ひとりが大切にされ、子どもどうしがつながり、子どもたちが主体的に学習に参加できる教育環境を整えること。</dd>
+          </dl>
+      </div>
+    </div>
+  </div>
+      <div id="footer">
+  	<div class="pagetop"><a href="#wrapper"></a></div>
+    <ul>
+    	<li class="school_info">
+      	<h4 id="sitemap">ほそごう学園</h4>
+        <p>池田市立細郷小学校</p>
+        <p>池田市立細郷中学校</p>
+        <div class="address">
+          〒563-0017<br />大阪府池田市伏尾台3-14
+          <p>072-751-0731</p>
+        </div>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../index.html">ホーム</a></dt>
+          <dd></dd>
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="index.html">学園案内</a></dt>
+          <dd><a href="index.html">学園について</a></dd>
+          <dd><a href="message.html">学園からのメッセージ</a></dd>
+          <dd><a href="feature.html">学園の特徴</a></dd>
+          <dd><a href="history.html">沿革</a></dd> 
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../campus/index.html">学園生活</a></dt>
+          <dd><a href="../campus/index.html">学園生活</a></dd>
+          <dd><a href="../campus/letter.html">学園長からの手紙</a></dd>
+          <dd><a href="../campus/info.html">学園情報</a></dd>
+        </dl>
+      </li>
+      <li>
+      	<dl>
+        	<dt><a href="../facility/index.html">施設設備</a></dt>
+          <dd><a href="../facility/index.html">メディアセンター</a></dd>
+          <dd><a href="../facility/music.html">音楽室</a></dd>
+          <dd><a href="../facility/pool.html">プール</a></dd>
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../research/index.html">教育研究</a></dt>
+          <dd><a href="../research/index.html">教育活動</a></dd>
+          <dd><a href="../research/special.html">特別授業</a></dd>
+        </dl>
+      </li>
+    	<li>
+      	<dl>
+        	<dt><a href="../osp/index.html">地域連携</a></dt>
+          <dd><a href="../osp/index.html">地域支援本部</a></dd>
+          <dd><a href="../osp/pta.html">ＰＴＡ活動</a></dd>
+        </dl>
+      </li>
+    </ul>
+  </div><!-- footer -->
+</div>
+<!-- #wrapper -->
+</body>
+</html>
