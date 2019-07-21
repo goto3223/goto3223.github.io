@@ -1,0 +1,27 @@
+/**************************************************
+
+	ボタンのデザイン
+
+**************************************************/
+.sounds ,
+.stop-button
+{
+	display: block ;
+
+	width: 90% ;
+	max-width: 250px ;
+	margin: 8px ;
+	padding: 18px 0 ;
+	border-radius: 4px ;
+
+	color: #fff ;
+	font-weight: 700 ;
+	background: #D36015 ;
+	text-align: center ;
+	text-decoration: none ;
+}
+
+.stop-button
+{
+	background: #777 ;
+}
